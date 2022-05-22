@@ -1,0 +1,27 @@
+.btn {
+  margin-left: 12px;
+}
+.itemList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 6px;
+}
+
+.itemList:hover {
+  border-radius: 12px;
+  background: linear-gradient(to left, rgb(216, 211, 211), grey);
+  transition: 0.75s linear;
+}
+.close {
+  text-decoration: line-through;
+  color: rgb(183, 173, 173);
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.btns {
+  margin-top: 24px;
+}
